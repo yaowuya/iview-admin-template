@@ -6,17 +6,18 @@
 </template>
 
 <script>
-  export default {
-    name: "Dashboard",
-    data() {
-      return {}
-    },
-    methods: {
-      toReport() {
-        this.$router.push({name: "DayReport"})
-      }
+export default {
+  name: 'Dashboard',
+  data() {
+    return {
+    }
+  },
+  methods: {
+    toReport() {
+      this.$router.push({ name: 'DayReport' })
     }
   }
+}
 </script>
 
 <style scoped>

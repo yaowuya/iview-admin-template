@@ -143,12 +143,12 @@
 <script>
 // import * as defaultSettings from '@/settings'
 import * as echarts from 'echarts'
-import * as defaultSettings from '@/settings'
+// import * as defaultSettings from '@/settings'
 
 export default {
   name: 'DayReport',
   data() {
-    const url = process.env.NODE_ENV === 'development' ? defaultSettings.devProxyTarget : window.siteUrl
+    // const url = process.env.NODE_ENV === 'development' ? defaultSettings.devProxyTarget : window.siteUrl
     return {
       // headerImg: url + 'static/report/report-header.jpg',
       // exceptionImg: url + 'static/report/situation-exception.png',
